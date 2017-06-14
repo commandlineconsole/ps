@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c240a6b4-e8dd-4259-9532-af17ad98ddd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps.iml" afterPath="$PROJECT_DIR$/ps.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps.iws" afterPath="$PROJECT_DIR$/ps.iws" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/AtomicBlockBuilder.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/AtomicBlockBuilder.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/AuditManager.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/AuditManager.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/LbResponseBlockBuilder.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/LbResponseBlockBuilder.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/LogicBlockBuilder.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/LogicBlockBuilder.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/TestMe.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/TestMe.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/UpdateLatestDataMap.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/UpdateLatestDataMap.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/WordCounter.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/WordCounter.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/XMLFlatFileBuilder.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/XMLFlatFileBuilder.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/XMLParseJobRunner.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/XMLParseJobRunner.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/XmlParser.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/XmlParser.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/common/DataFrameFunctions.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/common/DataFrameFunctions.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/common/Dataformat.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/common/Dataformat.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/common/hdfsFileManager.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/common/hdfsFileManager.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/conf/JobConfig.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/conf/JobConfig.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/conf/SparkConf.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/conf/SparkConf.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/domain/auditinfo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/domain/auditinfo.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/domain/package.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/domain/package.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/domain/xmlParserLog.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/domain/xmlParserLog.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/io/AvroIO.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/io/AvroIO.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/io/HiveIO.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/io/HiveIO.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/io/IOUtil.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/io/IOUtil.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/io/JsonIO.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/io/JsonIO.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/ioXMLParser/bdXMLParser.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/ioXMLParser/bdXMLParser.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/ioXMLParser/xmlExtensions.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/ioXMLParser/xmlExtensions.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/ioXMLParser/xmlParserHelper.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/ioXMLParser/xmlParserHelper.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/Table.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/Table.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/Transformation.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/Transformation.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/atomic/AtomicBlockDatamap.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/atomic/AtomicBlockDatamap.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/atomic/AtomicBlockResponse.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/atomic/AtomicBlockResponse.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/atomic/AtomicBlockSchemas.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/atomic/AtomicBlockSchemas.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/tables/logic/Table2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/tables/logic/Table2.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/sky/xmlparser_old.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/Ja/xmlparser_old.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +76,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -113,6 +151,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
